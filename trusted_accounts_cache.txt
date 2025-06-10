@@ -1,0 +1,73 @@
+"aeyakovenko",      # anatoly yakovenko (solana founder)
+"austin_federa",    # austin federa
+"bonfida",
+"bunkr_io",
+"candypay_xyz",
+"cetsoncreck",
+"degenapeacademy",
+"driftprotocol",
+"famousfoxfed",
+"grapeprotocol",
+"helium",
+"jito_labs",
+"jupiterexchange",
+"kaminofinance",
+"lifinity_io",
+"madlads",
+"magiceden",
+"mangomarkets",
+"marinadefinance",
+"medianetwork_",
+"memedaosol",
+"meteoraag",
+"okaybears",
+"orca_so",
+"phantom",
+"pythnetwork",
+"rajgokal",         # raj gokal (solana co-founder)
+"raydiumprotocol",
+"saber_hq",
+"saros_xyz",
+"solana",
+"solana_tourism",
+"solanabeach_io",
+"solanabridge",
+"solanaexplorer",
+"solanafm",
+"solanalabs",
+"solanambs",
+"solanium_io",
+"solendprotocol",
+"solflare_wallet",
+"staratlas",
+"stellarsoulnft",
+"stepfinance_",
+"sunnyaggregator",
+"superteam_xyz",
+"superteambalkan",  # balkans
+"superteambr",      # brazil
+"superteamca",      # canada
+"superteamde",      # germany
+"superteamfr",      # france
+"superteamind",     # india
+"superteamjp",      # japan
+"superteammx",      # mexico
+"superteammy",      # malaysia
+"superteamng",      # nigeria
+"superteamph",      # philippines
+"superteamsg",      # singapore
+"superteamth",      # thailand
+"superteamtr",      # turkey
+"superteamuae",     # uae
+"superteamuk",      # united kingdom
+"superteamvn",      # vietnam
+"tensor_hq",
+"tonyguoga",        # tony g
+"trutsxyz",
+"tulipprotocol",
+"vinnylingham",     # vinny lingham
+"wordcel_xyz",
+"wormholecrypto",
+"xnft_backpack",
+]
+trusted_accounts = [

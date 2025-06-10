@@ -1,0 +1,293 @@
+2025-06-10 06:18:56,388 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 06:18:59,693 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 06:20:34,485 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:20:34,485 - bot.trusted_accounts - INFO - No cached trusted accounts found
+2025-06-10 06:20:34,485 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:20:34,485 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:20:34,485 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:20:34,617 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:20:34,617 - bot.trusted_accounts - INFO - No cached trusted accounts found
+2025-06-10 06:20:34,617 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:20:34,617 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:20:34,617 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:20:34,629 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:20:34,659 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:20:34,693 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 06:20:34,917 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 06:20:46,894 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:20:46,894 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:20:46,895 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:20:46,895 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:20:46,895 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:20:46,939 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:20:46,988 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 889 seconds.
+2025-06-10 06:24:05,664 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:24:05,664 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:24:05,664 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:24:05,664 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:24:05,664 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:24:05,714 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:24:05,755 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 690 seconds.
+2025-06-10 06:24:37,611 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:24:37,611 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:24:37,611 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:24:37,612 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:24:37,612 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:24:37,657 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:24:37,692 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 658 seconds.
+2025-06-10 06:30:27,272 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.64:5000
+2025-06-10 06:30:27,272 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 06:30:27,366 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:30:27,367 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:30:27,367 - main - INFO - RugguardBot initialized successfully
+2025-06-10 06:30:27,367 - main - INFO - Starting RugguardBot...
+2025-06-10 06:30:27,367 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:30:27,474 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:30:27,511 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 308 seconds.
+2025-06-10 06:30:31,349 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:31] "GET / HTTP/1.1" 200 -
+2025-06-10 06:30:35,235 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:35] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:30:35,325 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:35] "GET /api/config HTTP/1.1" 200 -
+2025-06-10 06:30:40,348 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:40] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:30:45,374 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:45] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:30:50,280 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:50] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:30:55,298 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:30:55] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:01,027 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.64:5000
+2025-06-10 06:31:01,027 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 06:31:01,125 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:31:01,134 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:31:01,135 - main - INFO - RugguardBot initialized successfully
+2025-06-10 06:31:01,135 - main - INFO - Starting RugguardBot...
+2025-06-10 06:31:01,136 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:31:01,190 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:31:01,228 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 274 seconds.
+2025-06-10 06:31:01,894 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:31:01,897 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:31:01,897 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:31:01,897 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:31:01,897 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:31:01,983 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:31:02,028 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 273 seconds.
+2025-06-10 06:31:02,150 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 06:31:02] "GET / HTTP/1.1" 200 -
+2025-06-10 06:31:02,193 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 06:31:02] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:02,201 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 06:31:02] "GET /api/config HTTP/1.1" 200 -
+2025-06-10 06:31:02,521 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 06:31:02,521 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 06:31:02,521 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 06:31:02,521 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 06:31:02,521 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 06:31:02,574 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 06:31:02,607 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 273 seconds.
+2025-06-10 06:31:04,215 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:04] "GET / HTTP/1.1" 200 -
+2025-06-10 06:31:07,560 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:07] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:07,580 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:07] "GET /api/config HTTP/1.1" 200 -
+2025-06-10 06:31:12,606 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:12] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:17,631 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:17] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:22,640 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:22] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:23,664 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:23] "GET /api/start HTTP/1.1" 200 -
+2025-06-10 06:31:27,670 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:27] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:32,588 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:32] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:34,217 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:34] "GET /api/start HTTP/1.1" 200 -
+2025-06-10 06:31:37,591 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:37] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:42,616 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:42] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:47,626 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:47] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:51,927 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:51] "GET /api/start HTTP/1.1" 200 -
+2025-06-10 06:31:52,651 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:52] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:31:57,662 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:31:57] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:32:02,690 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:32:02] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:32:07,594 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:32:07] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:32:12,613 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:32:12] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 06:32:17,637 - werkzeug - INFO - 172.31.128.64 - - [10/Jun/2025 06:32:17] "GET /api/status HTTP/1.1" 200 -
+2025-06-10 07:35:07,489 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:35:11,351 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:35:27,278 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:35:27,294 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:35:52,865 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:35:52,893 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:36:17,288 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:36:17,423 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:39:23,601 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:39:23,746 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:39:49,576 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:39:49,774 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:40:47,679 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:40:47,844 - __main__ - ERROR - Configuration validation failed. Please check your .env file.
+2025-06-10 07:44:13,258 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:44:13,258 - bot.trusted_accounts - INFO - Loaded 81 cached trusted accounts
+2025-06-10 07:44:13,258 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:44:13,258 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:44:13,259 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:44:13,390 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:44:13,390 - bot.trusted_accounts - INFO - Loaded 81 cached trusted accounts
+2025-06-10 07:44:13,390 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:44:13,390 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:44:13,390 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:44:13,446 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:44:13,449 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:44:13,485 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 07:44:13,488 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 07:45:19,792 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:45:19,792 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:45:19,792 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:45:19,793 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:45:19,793 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:45:19,826 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:45:19,863 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 835 seconds.
+2025-06-10 07:45:19,974 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:45:19,977 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:45:19,978 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:45:19,978 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:45:19,978 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:45:20,007 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:45:20,042 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 834 seconds.
+2025-06-10 07:48:29,380 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:48:29,380 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:48:29,380 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:48:29,380 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:48:29,381 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:48:29,427 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:48:29,465 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 645 seconds.
+2025-06-10 07:48:29,543 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:48:29,543 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:48:29,543 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:48:29,543 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:48:29,543 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:48:29,573 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:48:29,611 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 645 seconds.
+2025-06-10 07:52:29,279 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:52:29,279 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:52:29,279 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:52:29,279 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:52:29,279 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:52:29,472 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:52:29,477 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:52:29,478 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:52:29,478 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:52:29,478 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:52:29,478 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:52:29,508 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 405 seconds.
+2025-06-10 07:52:29,511 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:52:29,545 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 405 seconds.
+2025-06-10 07:58:11,949 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:58:11,949 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:58:11,949 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:58:11,949 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:58:11,950 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:58:11,955 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 07:58:11,956 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 07:58:11,956 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 07:58:11,956 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 07:58:11,956 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 07:58:12,133 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:58:12,134 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 07:58:12,185 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 62 seconds.
+2025-06-10 07:58:12,190 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 62 seconds.
+2025-06-10 07:59:14,224 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 07:59:14,225 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 08:04:10,030 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:04:10,030 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:04:10,030 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:04:10,030 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:04:10,030 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:04:10,135 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:04:10,135 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:04:10,135 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:04:10,135 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:04:10,136 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:04:10,251 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:04:10,251 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:04:10,286 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 605 seconds.
+2025-06-10 08:04:10,286 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 605 seconds.
+2025-06-10 08:08:15,803 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:08:15,803 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:08:15,803 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:08:15,803 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:08:15,803 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:08:15,846 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:08:15,887 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 360 seconds.
+2025-06-10 08:08:16,003 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:08:16,005 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:08:16,005 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:08:16,005 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:08:16,005 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:08:16,040 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:08:16,075 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 359 seconds.
+2025-06-10 08:09:18,490 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:09:18,493 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:09:18,494 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:09:18,495 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:09:18,495 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:09:18,705 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:09:18,748 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 297 seconds.
+2025-06-10 08:09:18,760 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:09:18,760 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:09:18,760 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:09:18,761 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:09:18,761 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:09:18,795 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:09:18,833 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 297 seconds.
+2025-06-10 08:09:54,590 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:09:54,590 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:09:54,590 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:09:54,590 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:09:54,590 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:09:54,635 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:09:54,673 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 261 seconds.
+2025-06-10 08:09:54,682 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:09:54,684 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:09:54,684 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:09:54,684 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:09:54,684 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:09:54,719 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:09:54,763 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 261 seconds.
+2025-06-10 08:12:53,291 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:12:53,291 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:12:53,291 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:12:53,292 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:12:53,292 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:12:53,324 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:12:53,368 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 82 seconds.
+2025-06-10 08:12:53,592 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:12:53,592 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:12:53,592 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:12:53,592 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:12:53,592 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:12:53,623 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:12:53,664 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 82 seconds.
+2025-06-10 08:14:02,365 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:14:02,366 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:14:02,366 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:14:02,366 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:14:02,366 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:14:02,392 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:14:02,392 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:14:02,392 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:14:02,392 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:14:02,393 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:14:02,408 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:14:02,432 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:14:02,447 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 13 seconds.
+2025-06-10 08:14:02,470 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 13 seconds.
+2025-06-10 08:14:11,273 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:14:11,274 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:14:11,274 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:14:11,274 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:14:11,274 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:14:11,291 - bot.monitor - INFO - X API connection established successfully
+2025-06-10 08:14:11,291 - bot.trusted_accounts - INFO - Loaded 73 cached trusted accounts
+2025-06-10 08:14:11,291 - __main__ - INFO - RugguardBot initialized successfully
+2025-06-10 08:14:11,291 - __main__ - INFO - Starting RugguardBot...
+2025-06-10 08:14:11,291 - bot.trusted_accounts - INFO - Updating trusted accounts list from GitHub...
+2025-06-10 08:14:11,323 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:14:11,330 - bot.trusted_accounts - INFO - Updated trusted accounts list: 73 accounts
+2025-06-10 08:14:11,361 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 4 seconds.
+2025-06-10 08:14:11,375 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 4 seconds.
+2025-06-10 08:14:15,399 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 08:14:15,414 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 08:14:15,482 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-06-10 08:14:15,508 - tweepy.client - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
