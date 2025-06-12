@@ -4,16 +4,14 @@
 
 ## 🚀 Features
 
-- **Automated Monitoring**: Scans X replies for trigger phrases across all tweets
-- **Smart Trigger Detection**: Responds to "@projectruggaurd riddle me this" mentions
-- **Comprehensive Analysis**: Analyzes account age, follower ratios, bio content, engagement patterns, and content sentiment
-- **Trusted Network Verification**: Cross-references accounts against a curated list of trusted followers
-- **Real-time Reporting**: Posts detailed trustworthiness reports as replies
-- **Web Dashboard**: Monitor bot status and activity through a user-friendly interface
+* **Automated Monitoring**: Scans X replies for trigger phrases across all tweets
+* **Smart Trigger Detection**: Responds to "@projectruggaurd riddle me this" mentions
+* **Comprehensive Analysis**: Analyzes account age, follower ratios, bio content, engagement patterns, and content sentiment
+* **Trusted Network Verification**: Cross-references accounts against a curated list of trusted followers
+* **Real-time Reporting**: Posts detailed trustworthiness reports as replies
+* **Web Dashboard**: Monitor bot status and activity through a user-friendly interface
 
 ## 🏗️ Architecture
-
-The bot is built with a modular design for maintainability and scalability:
 
 ```
 RugguardBot/
@@ -34,9 +32,8 @@ RugguardBot/
 
 ### Prerequisites
 
-- Python 3.11+
-- X Developer Account with API access
-- Replit account for deployment
+* Python 3.11+
+* X Developer Account with API access
 
 ### 1. Clone the Repository
 
@@ -47,33 +44,35 @@ cd rugguard-bot
 
 ### 2. Configure API Keys
 
-Set up your X API credentials in Replit Secrets:
+Set your X API credentials as environment variables:
 
-- `X_API_KEY`: Your X API Key
-- `X_API_SECRET`: Your X API Secret
-- `X_ACCESS_TOKEN`: Your X Access Token
-- `X_ACCESS_TOKEN_SECRET`: Your X Access Token Secret
-- `X_BEARER_TOKEN`: Your X Bearer Token
-
-**Getting X API Access:**
-1. Visit [developer.x.com](https://developer.x.com/en/portal/petition/essential/basic-info)
-2. Sign up for a free developer account
-3. Create a new project and app
-4. Generate your API keys and tokens
+```bash
+X_API_KEY=your_api_key
+X_API_SECRET=your_api_secret
+X_ACCESS_TOKEN=your_access_token
+X_ACCESS_TOKEN_SECRET=your_access_token_secret
+X_BEARER_TOKEN=your_bearer_token
+```
 
 ### 3. Install Dependencies
 
-The bot automatically installs required packages when run on Replit:
+Install required packages:
 
-- `tweepy` - X API client
-- `textblob` - Text sentiment analysis
-- `python-dotenv` - Environment variable management
-- `requests` - HTTP requests for trusted accounts list
-- `statistics` - Statistical analysis
+```bash
+pip install -r requirements.txt
+```
+
+**Requirements include:**
+
+* `tweepy`
+* `textblob`
+* `python-dotenv`
+* `requests`
+* `statistics`
 
 ### 4. Configuration Options
 
-You can customize the bot behavior by setting these environment variables:
+Customize bot behavior via environment variables:
 
 ```bash
 TRIGGER_PHRASE="@projectruggaurd riddle me this"
@@ -85,26 +84,16 @@ MIN_ACCOUNT_AGE_DAYS=30
 
 ## 🚀 Running the Bot
 
-### On Replit (Recommended)
-
-1. Fork this project to your Replit account
-2. Set up your API keys in Secrets
-3. Click "Run" or execute:
-
-```bash
-python main.py
-```
-
 ### Local Development
 
-1. Create a `.env` file with your API keys:
+1. Create a `.env` file and add your keys:
 
-```bash
-X_API_KEY=your_api_key_here
-X_API_SECRET=your_api_secret_here
-X_ACCESS_TOKEN=your_access_token_here
-X_ACCESS_TOKEN_SECRET=your_access_token_secret_here
-X_BEARER_TOKEN=your_bearer_token_here
+```env
+X_API_KEY=...
+X_API_SECRET=...
+X_ACCESS_TOKEN=...
+X_ACCESS_TOKEN_SECRET=...
+X_BEARER_TOKEN=...
 ```
 
 2. Run the bot:
@@ -115,136 +104,115 @@ python main.py
 
 ### Web Dashboard
 
-Access the monitoring dashboard at the provided URL to:
+The bot includes a web dashboard to:
 
-- View bot status and configuration
-- Monitor recent activity and logs
-- Start/stop the bot remotely
-- View analysis statistics
+* Monitor status and logs
+* View recent activity
+* Start/stop the bot
+* Analyze statistics
+
+Launch it by running:
+
+```bash
+python app.py
+```
 
 ## 🔍 How It Works
 
 ### 1. Trigger Detection
-The bot continuously monitors X for replies containing the exact phrase "@projectruggaurd riddle me this". When detected, it:
 
-- Identifies the original tweet being replied to
-- Extracts the user ID of the original tweet's author
-- Initiates analysis for the original author (not the commenter)
+Bot scans X for the phrase "@projectruggaurd riddle me this", then:
+
+* Identifies the original tweet
+* Extracts the original author’s user ID
+* Initiates account analysis
 
 ### 2. Account Analysis
 
-The bot performs comprehensive analysis including:
+Includes:
 
-**Account Metrics:**
-- Account age and creation date
-- Follower to following ratio
-- Profile completeness and bio analysis
-
-**Engagement Analysis:**
-- Average likes, retweets, and replies
-- Posting frequency patterns
-- Content sentiment analysis
-
-**Trust Network Verification:**
-- Cross-references against curated trusted accounts list
-- Checks if account is followed by 3+ trusted accounts
-- Direct trust list membership verification
+* **Account Age, Follower Ratios, Bio Check**
+* **Engagement Stats**: Likes, retweets, replies
+* **Sentiment**: Using TextBlob
+* **Trusted Network Cross-Check**
 
 ### 3. Trust Score Calculation
 
-Accounts receive trust scores based on:
+Scoring based on:
 
-- **Direct Trust**: Account is on the trusted list
-- **Network Trust**: Followed by 3+ trusted accounts
-- **Risk Factors**: New accounts, suspicious ratios, negative patterns
-- **Engagement Quality**: Authentic vs. artificial engagement patterns
+* **Direct Trust**: In curated list
+* **Network Trust**: Followed by 3+ trusted users
+* **Risk Factors**: New, low engagement, weird ratios
+* **Engagement Quality**: Spammy or natural
 
 ### 4. Report Generation
 
-The bot generates concise reports including:
+Bot replies with:
 
-- Trust status and verification level
-- Key risk indicators
-- Account metrics summary
-- Network backing information
+* Trust status
+* Risk flags
+* Account metrics
+* Network trust evidence
 
 ## 🛡️ Trusted Accounts System
 
-The bot uses a curated list of trusted accounts maintained at:
-[https://github.com/devsyrem/turst-list/main/list](https://github.com/devsyrem/turst-list/main/list)
+Uses a curated list:
 
-**Trust Levels:**
-- **Directly Trusted**: Account is on the trusted list
-- **Network Backed**: Followed by 3+ trusted accounts
-- **Unverified**: Does not meet trust criteria
+🔗 [Trusted List GitHub](https://github.com/devsyrem/turst-list/main/list)
+
+**Levels:**
+
+* **Direct Trust**: Listed directly
+* **Network Backed**: Followed by 3+ listed users
+* **Unverified**: Does not meet criteria
 
 ## 📊 Analysis Criteria
 
 ### Account Age
-- **Established**: 30+ days old
-- **New**: Less than 30 days old
-- **Fresh**: Less than 7 days old
+
+* ✅ Established: 30+ days
+* ⚠️ New: <30 days
+* ❗ Fresh: <7 days
 
 ### Follower Ratios
-- **Balanced**: Normal follower/following ratio
-- **Suspicious**: Extremely high or low ratios
-- **Bot-like**: Patterns indicating artificial growth
 
-### Content Analysis
-- **Sentiment**: Positive, neutral, or negative tone
-- **Topics**: Crypto, finance, general content classification
-- **Engagement**: Authentic vs. artificial interaction patterns
+* ✅ Balanced: Normal
+* ⚠️ Suspicious: High/low extremes
+* ❗ Bot-like: Artificial signs
+
+### Content Sentiment
+
+* Positive/neutral/negative
+* Crypto, financial, or general content detection
+* Real vs. spam engagement
 
 ## 🔧 API Usage & Rate Limits
 
-The bot efficiently manages X API usage:
+Efficient API handling:
 
-- **Rate Limiting**: Built-in rate limit handling
-- **Caching**: Reduces redundant API calls
-- **Batch Processing**: Optimizes API request patterns
-- **Error Handling**: Graceful degradation on API errors
+* Handles rate limits gracefully
+* Caching to reduce API calls
+* Batching for optimization
+* Error handling included
 
 ## 📝 Logging & Monitoring
 
-Comprehensive logging includes:
+Comprehensive logs include:
 
-- Trigger detection events
-- Analysis results
-- API call tracking
-- Error reporting
-- Performance metrics
+* Trigger detections
+* Trust analysis reports
+* API call tracking
+* Error logs and performance metrics
 
-## 🚀 Deployment on Replit
+## 🙌 Contributing
 
-The bot is fully configured for Replit deployment:
-
-1. **Automatic Dependency Management**: No manual package installation required
-2. **Environment Variables**: Use Replit Secrets for secure configuration
-3. **Always-On**: Configure for continuous operation
-4. **Web Interface**: Built-in dashboard for monitoring
-5. **Database**: SQLite for data persistence
-
-## 🤝 Contributing
-
-This project follows best practices for code quality:
-
-- **Modular Design**: Logical separation of concerns
-- **Error Handling**: Comprehensive exception management
-- **Documentation**: Well-commented codebase
-- **Testing**: Built-in validation and monitoring
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+* Modular, clean codebase
+* Exception handling included
+* Open for contributions via GitHub
+* MIT Licensed
 
 ## 🔗 Links
 
-- **Project RUGGUARD**: Building trust tools for the Solana ecosystem
-- **X API Documentation**: [https://docs.x.com/x-api/fundamentals/data-dictionary#tweet](https://docs.x.com/x-api/fundamentals/data-dictionary#tweet)
-- **Trusted Accounts List**: [https://github.com/devsyrem/turst-list/main/list](https://github.com/devsyrem/turst-list/main/list)
-
-## 📞 Support
-
-For support or questions regarding this implementation:
-- Contact: @devsyrem on Telegram
-- Issues: Use GitHub Issues for bug reports and feature requests
+* **Project RUGGUARD**: Tools for Solana trust analysis
+* **X API Docs**: [https://docs.x.com/x-api/fundamentals/data-dictionary#tweet](https://docs.x.com/x-api/fundamentals/data-dictionary#tweet)
+* **Trusted List**: [https://github.com/devsyrem/turst-list/main/list](https://github.com/devsyrem/turst-list/main/list)
